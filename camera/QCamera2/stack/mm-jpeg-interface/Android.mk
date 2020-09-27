@@ -23,6 +23,7 @@ LOCAL_ADDITIONAL_DEPENDENCIES := $(common_deps)
 LIB2D_ROTATION=false
 
 LOCAL_C_INCLUDES += \
+    frameworks/native/include/media/openmax \
     $(LOCAL_PATH)/inc \
     $(LOCAL_PATH)/../common \
     $(LOCAL_PATH)/../mm-camera-interface/inc \
