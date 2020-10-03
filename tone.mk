@@ -405,6 +405,3 @@ $(call inherit-product, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)
 # Variant linking script
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/releasetools/updater.sh:utilities/updater.sh
-
-# Twrp
-$(call inherit-product, $(LOCAL_PATH)/recovery/twrp.mk)
