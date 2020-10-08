@@ -34,8 +34,4 @@
     <string name="key_iso">sony-iso</string>
     <string name="key_iso_values">sony-iso-values</string>
 
-    <!-- ISO values use numbers.
-         Example: 50 instead of ISO50 -->
-    <bool name="iso_values_use_numbers">true</bool>
-
 </resources>
